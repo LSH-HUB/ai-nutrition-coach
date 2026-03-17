@@ -1,0 +1,35 @@
+﻿{
+  "expo": {
+    "name": "AI Nutrition Coach",
+    "slug": "ai-nutrition-coach",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4CAF50"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4CAF50"
+      },
+      "package": "com.ainutritioncoach.app"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ainutritioncoach.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c801718-462b-4295-af9d-8096fe7e86e0"
+      }
+    }
+  }
+}
